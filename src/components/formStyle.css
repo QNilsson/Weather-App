@@ -1,0 +1,29 @@
+body{
+    background-color:#f5f0e1;
+  color:#1e3d59;
+}
+form{
+    margin-top: 3em;
+}
+
+form input[name="lat"],
+form input[name="long"]{
+    background-color:transparent;
+    color:black;
+    border:0;
+    padding:4px;
+    border-bottom: 2px solid #1e3d59;
+    border-radius: 0;
+}
+
+form input:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+form .btn-custom{
+    padding:10px;
+    font-size:20px;
+    background-color:#ff6340;
+    color:#f5f0e1;
+}
