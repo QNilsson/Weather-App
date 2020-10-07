@@ -1,7 +1,10 @@
 import React from "react";
 import "./formStyle.css";
+import { setState } from 'react'
 
 const Form = props => {
+
+ 
   return (
     <div className="container">
       <div>{props.error ? error() : null}</div>
@@ -14,6 +17,7 @@ const Form = props => {
               name="lat"
               autoComplete="off"
               placeholder="Lattitude"
+          
             />
           </div>
           <div className="col-md-3">
@@ -23,9 +27,10 @@ const Form = props => {
               name="long"
               autoComplete="off"
               placeholder="Longitude"
+              
             />
           </div>
-          <div className="col-md-3 mt-md-0 text-md-left">
+          <div className="col-md-3 text-md-left">
             <button className="btn btn-custom">Get Weather</button>
           </div>
         </div>
